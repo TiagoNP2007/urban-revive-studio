@@ -91,6 +91,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_PT" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Urban Repair — Construção, Remodelação e Impermeabilização" },
+      { name: "twitter:title", content: "Urban Repair — Construção, Remodelação e Impermeabilização" },
+      { name: "description", content: "Urban Reborn Studio is a professional web platform showcasing urban regeneration projects and services." },
+      { property: "og:description", content: "Urban Reborn Studio is a professional web platform showcasing urban regeneration projects and services." },
+      { name: "twitter:description", content: "Urban Reborn Studio is a professional web platform showcasing urban regeneration projects and services." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/731ced13-eeb2-43f1-82dc-346b7fd71fe1/id-preview-eab58e79--56326f23-4da9-4e8e-b115-bfcb33aa9002.lovable.app-1781650806444.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/731ced13-eeb2-43f1-82dc-346b7fd71fe1/id-preview-eab58e79--56326f23-4da9-4e8e-b115-bfcb33aa9002.lovable.app-1781650806444.png" },
     ],
     links: [
       {
