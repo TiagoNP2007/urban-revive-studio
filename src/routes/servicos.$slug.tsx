@@ -92,7 +92,7 @@ function ServicePage() {
             </h2>
           </div>
           <ul className="space-y-4">
-            {service.scope.map((item) => (
+            {service.scope.map((item: string) => (
               <li key={item} className="flex items-start gap-4 border-b border-border pb-4 text-lg">
                 <Check className="mt-1 h-5 w-5 shrink-0" strokeWidth={1.5} />
                 <span>{item}</span>
@@ -116,7 +116,7 @@ function ServicePage() {
             </p>
           </div>
           <ul className="grid grid-cols-2 gap-px self-start bg-border sm:grid-cols-3">
-            {service.materials.map((m) => (
+            {service.materials.map((m: string) => (
               <li key={m} className="bg-bone p-6 text-center font-display text-2xl">
                 {m}
               </li>
@@ -132,7 +132,7 @@ function ServicePage() {
             Considere falar connosco se reconhece algum destes cenários.
           </h2>
           <ul className="mt-12 grid gap-6 md:grid-cols-2">
-            {service.whenYouNeed.map((w, i) => (
+            {service.whenYouNeed.map((w: string, i: number) => (
               <li
                 key={w}
                 className="flex gap-6 border-t border-border pt-6"
