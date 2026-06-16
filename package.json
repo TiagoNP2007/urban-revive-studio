@@ -91,3 +91,4 @@
   "build": "vite build",
   "start": "node .output/server/index.mjs", 
 }
+const port = process.env.PORT || 8080;
