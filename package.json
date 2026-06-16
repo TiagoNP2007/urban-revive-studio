@@ -90,5 +90,4 @@
   "dev": "vite dev",
   "build": "vite build",
   "start": "node .output/server/index.mjs", 
-  ...
 }
